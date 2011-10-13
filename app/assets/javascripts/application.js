@@ -6,4 +6,15 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require_tree .
+
+//= require lib/jquery-ui.min
+
+//= require lib/jquery.tmpl
+//= require lib/json2
+
+//= require lib/underscore
+//= require lib/backbone
+
+//= require models/roles
+//= require collections/roles
+//= require views/roles

@@ -11,12 +11,16 @@
 #   - dist/**/*.js
 #
 src_files:
-  - public/javascripts/prototype.js
-  - public/javascripts/effects.js
-  - public/javascripts/controls.js
-  - public/javascripts/dragdrop.js
-  - public/javascripts/application.js
-  - public/javascripts/**/*.js
+  - public/javascripts/lib/jquery.js
+  - public/javascripts/lib/jquery.tmpl.js
+  - public/javascripts/lib/underscore.js
+  - public/javascripts/lib/backbone.js
+
+  - public/javascripts/models/*.js
+  - public/javascripts/collections/*.js
+  - public/javascripts/views/*.js
+
+  - public/javascripts/compiled/*.js
 
 # stylesheets
 #
