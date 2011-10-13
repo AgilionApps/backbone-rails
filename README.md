@@ -27,15 +27,13 @@ bundle exec rake jasmine
 
 Visit http://localhost:8888
 
-## Organization
+## Organization & Configuration
 
 In the app/assets/javascripts directory are subdirectories for organizing your Backbone models, collections and views
 (routes coming soon). These files (ending in .coffee) are watched by guard, and when saved will compile into public/javascripts
 models, collections, views and lib directories.
 
 The same is true for files in the spec/javascripts directory.
-
-## Configuration
 
 Jasmine will check for specs in the compiled directory under public/javascripts/compiled.
 The necessary dependencies must be loaded first, for your specs to pass. You can configure
