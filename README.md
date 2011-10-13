@@ -30,8 +30,10 @@ Visit http://localhost:8888
 ## Organization
 
 In the app/assets/javascripts directory are subdirectories for organizing your Backbone models, collections and views
-(routes coming soon). These files are watched by guard, and when the file is saved, will compile to the public/javascripts
-models, collections, views and lib directories.
+(routes coming soon). These files (ending in .coffee) are watched by guard, and when saved will compile into public/javascripts
+models, collections, views and lib directories.  
+
+The same is true for files in the spec/javascripts directory.
 
 ## Configuration
 
