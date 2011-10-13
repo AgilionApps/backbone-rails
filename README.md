@@ -15,7 +15,7 @@ bundle
 
 ````
 
-To start the Jasmine server and watch for changes to your Coffeescript files (with guard)
+To start the Jasmine server and watch for changes to your CoffeeScript files (with guard)
 start both processes and leave each running in its own terminal session
 
 ```bash
