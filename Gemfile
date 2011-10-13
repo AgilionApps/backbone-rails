@@ -30,7 +30,22 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
-group :test do
-  # Pretty printed test output
+group :test, :cucumber do
   gem 'turn', :require => false
+  gem 'minitest'
+  gem 'rspec-rails'
+
+  gem 'factory_girl_rails'
+  gem 'capybara'
+  gem 'cucumber-rails'
+    
+  gem 'database_cleaner'
+  gem 'launchy'
+
+  gem 'factory_girl_rails'
+
+  gem 'guard'
+  gem 'guard-coffeescript'
+  gem 'guard-livereload'
+  gem 'jasmine'
 end
