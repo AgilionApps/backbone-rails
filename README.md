@@ -40,3 +40,21 @@ The same is true for files in the spec/javascripts directory.
 Jasmine will check for specs in the compiled directory under public/javascripts/compiled.
 The necessary dependencies must be loaded first, for your specs to pass. You can configure
 your dependencies by modifying the spec/javascripts/support/jasmine.yml
+
+It looks something like this
+
+```yml
+
+src_files:
+  - public/javascripts/lib/jquery.js
+  - public/javascripts/lib/jquery.tmpl.js
+  - public/javascripts/lib/underscore.js
+  - public/javascripts/lib/backbone.js
+
+  - public/javascripts/models/*.js
+  - public/javascripts/collections/*.js
+  - public/javascripts/views/*.js
+
+  - public/javascripts/compiled/*.js
+
+```
