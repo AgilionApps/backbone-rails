@@ -12,6 +12,7 @@ bundle
 ````
 
 Start both processes and leave each running in its own terminal session
+
 ```bash
 
 bundle exec guard
