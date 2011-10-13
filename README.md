@@ -3,7 +3,7 @@
 This application is a skeleton application for using Backbone and Jasmine
 with CoffeeScript.
 
-## Installing
+## Installation
 
 Grab the repository, change into it and install the necessary gems
 
