@@ -1,6 +1,6 @@
 # Backbone Rails 3.1 Application with CoffeeScript and Jasmine
 
-***Currently in development, may not work :) ***
+***Currently in development and may not work :) ***
 
 This application is a skeleton application for using Backbone and Jasmine
 with CoffeeScript.
