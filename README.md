@@ -27,6 +27,11 @@ bundle exec rake jasmine
 
 Visit http://localhost:8888
 
+## Organization
+
+In the app/assets/javascripts directory are subdirectories for organizing your Backbone models, collections and views
+(routes coming soon). These files are watched by guard, and when the file is saved, will compile to the public/javascripts
+models, collections, views and lib directories.
 
 ## Configuration
 
