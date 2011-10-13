@@ -58,23 +58,19 @@ src_files:
   - public/javascripts/compiled/*.js
 
 ```
+  
 
-#### Configuring Guard
+### Configuring Guard
 
-You can configure Guard
-
+Just change the output path and the regular expression used to match files if you need a different structure.
 
 ```ruby
 
 guard 'coffeescript', :output => 'public/javascripts/compiled' do
   watch(/^spec\/javascripts\/(.*)\.coffee/)
-  watch(/^spec\/javascripts\/models\/(.*)\.coffee/)
-  watch(/^spec\/javascripts\/collections\/(.*)\.coffee/)
-  watch(/^spec\/javascripts\/views\/(.*)\.coffee/)
 end
 
 ```
-
 
 ## Rails 3.1 Asset Pipeline
 
