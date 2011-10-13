@@ -5,13 +5,18 @@ with CoffeeScript.
 
 ## Installing
 
+Grab the repository, change into it and install the necessary gems
+
 ```bash
 
+git clone git@github.com:bseanvt/backbone-rails.git
+cd backbone-rails
 bundle
 
 ````
 
-Start both processes and leave each running in its own terminal session
+To start the Jasmine server and watch for changes to your Coffeescript files (with guard)
+start both processes and leave each running in its own terminal session
 
 ```bash
 
