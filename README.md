@@ -31,7 +31,7 @@ Visit http://localhost:8888
 
 In the app/assets/javascripts directory are subdirectories for organizing your Backbone models, collections and views
 (routes coming soon). These files (ending in .coffee) are watched by guard, and when saved will compile into public/javascripts
-models, collections, views and lib directories.  
+models, collections, views and lib directories.
 
 The same is true for files in the spec/javascripts directory.
 
@@ -58,3 +58,8 @@ src_files:
   - public/javascripts/compiled/*.js
 
 ```
+
+## Rails 3.1 Asset Pipeline
+
+Because load order is important it is not advised to automagically load your javascript files with the require tree directive
+in app/assets/javascripts/application.js. All javascripts that are needed are specified manually in this file.
