@@ -29,6 +29,9 @@ bundle exec rake jasmine
 
 Visit http://localhost:8888
 
+_keep in mind that you will need to edit/save any files you want
+compiled/tested before they will show up in the tests._
+
 ## Organization & Configuration
 
 In the app/assets/javascripts directory are subdirectories for organizing your Backbone models, collections and views
@@ -58,7 +61,7 @@ src_files:
   - public/javascripts/compiled/*.js
 
 ```
-  
+
 
 ### Configuring Guard
 
