@@ -23,8 +23,8 @@ class window.Example extends Backbone.Model
 describe "Example", ()->
   beforeEach ()->
     this.example = new window.Example
-    
-  it "should be true", ()->
+
+  it "should have defaults", ()->
     title = this.example.get('title')
     expect(title).toEqual("Hello, World")
 
@@ -96,7 +96,7 @@ src_files:
 
 ### Configuring Guard
 
-The Guardfile is in the root of the project. Just change the output path and the regular expression used to match files 
+The Guardfile is in the root of the project. Just change the output path and the regular expression used to match files
 if you need a different structure. It looks something like this
 
 ```ruby

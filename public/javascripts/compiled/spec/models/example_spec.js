@@ -3,7 +3,7 @@
     beforeEach(function() {
       return this.example = new window.Example;
     });
-    return it("should be true", function() {
+    return it("should have defaults", function() {
       var title;
       title = this.example.get('title');
       return expect(title).toEqual("Hello, World");
