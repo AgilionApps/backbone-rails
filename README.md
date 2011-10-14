@@ -15,7 +15,7 @@ bundle
 
 ````
 
-To start the Jasmine server and watch for changes to your CoffeeScript files (with guard)
+To start the Jasmine server and watch for changes to your CoffeeScript files (with Guard)
 start both processes and leave each running in its own terminal session
 
 ```bash
@@ -33,7 +33,7 @@ compiled/tested before they will show up in the tests._
 ## Organization & Configuration
 
 In the app/assets/javascripts directory are subdirectories for organizing your Backbone models, collections and views
-(routes coming soon). These files (ending in .coffee) are watched by guard, and when saved will compile into public/javascripts
+(routes coming soon). These files (ending in .coffee) are watched by Guard, and when saved will compile into public/javascripts
 models, collections, views and lib directories.
 
 The same is true for files in the spec/javascripts directory.
