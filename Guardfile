@@ -1,24 +1,15 @@
-guard 'coffeescript', :output => 'public/javascripts/compiled' do
-  watch(/^spec\/javascripts\/(.*)\.coffee/)
-  watch(/^spec\/javascripts\/models\/(.*)\.coffee/)
-  watch(/^spec\/javascripts\/collections\/(.*)\.coffee/)
-  watch(/^spec\/javascripts\/views\/(.*)\.coffee/)
-end
-
-guard 'coffeescript', :output => 'public/javascripts/models' do
-  watch(/^app\/assets\/javascripts\/models\/(.*)\.coffee/)
-end
-
-guard 'coffeescript', :output => 'public/javascripts/collections' do
+guard 'coffeescript', :output => 'public/javascripts/compiled/src' do
+  # watch(/^app\/assets\/javascripts\/models\/(.*)\.coffee/)
   watch(/^app\/assets\/javascripts\/collections\/(.*)\.coffee/)
-end
-
-guard 'coffeescript', :output => 'public/javascripts/views' do
   watch(/^app\/assets\/javascripts\/views\/(.*)\.coffee/)
 end
 
-guard 'coffeescript', :output => 'public/javascripts/lib' do
-  watch(/^app\/assets\/javascripts\/lib\/(.*)\.js/)
+guard 'coffeescript', :output => 'public/javascripts/compiled/src/models' do
+  watch(/^app\/assets\/javascripts\/models\/(.*)\.coffee/)
+end
+
+guard 'coffeescript', :output => 'public/javascripts/compiled/spec' do
+  watch(/^spec\/javascripts\/(.*)\.coffee/)
 end
 
 guard 'livereload' do
