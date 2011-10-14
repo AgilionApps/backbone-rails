@@ -3,6 +3,34 @@
 This application is a skeleton application for using Backbone and Jasmine
 with CoffeeScript.
 
+## Example
+
+In this app is an example Backbone model and accompanying spec.
+
+```coffeescript
+
+# Backbone.js Model
+# app/assets/javascripts/models/example.js.coffee
+class window.Example extends Backbone.Model
+  defaults:
+    title: "Hello, World"
+
+```
+
+```coffeescript
+
+# Backbone.js Spec for Example model
+describe "Example", ()->
+  beforeEach ()->
+    this.example = new window.Example
+    
+  it "should be true", ()->
+    title = this.example.get('title')
+    expect(title).toEqual("Hello, World")
+
+```
+
+
 ## Installation
 
 Grabs this repository, changes into it and installs the necessary gems

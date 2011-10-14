@@ -4,4 +4,4 @@ describe "Example", ()->
     
   it "should be true", ()->
     title = this.example.get('title')
-    expect(true).toEqual(true)
+    expect(title).toEqual("Hello, World")

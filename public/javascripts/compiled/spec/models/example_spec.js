@@ -6,7 +6,7 @@
     return it("should be true", function() {
       var title;
       title = this.example.get('title');
-      return expect(true).toEqual(true);
+      return expect(title).toEqual("Hello, World");
     });
   });
 }).call(this);
