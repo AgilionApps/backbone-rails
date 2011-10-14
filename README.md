@@ -58,7 +58,7 @@ bundle exec rake jasmine
 Visit http://localhost:8888
 
 _keep in mind that you will need to edit/save any files you want
-compiled/tested before they will show up in the tests._
+compiled/tested while guard is running before they will show up in the Jasmine tests._
 
 ## Organization & Configuration
 
