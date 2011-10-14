@@ -1,5 +1,4 @@
 guard 'coffeescript', :output => 'public/javascripts/compiled/src' do
-  # watch(/^app\/assets\/javascripts\/models\/(.*)\.coffee/)
   watch(/^app\/assets\/javascripts\/collections\/(.*)\.coffee/)
   watch(/^app\/assets\/javascripts\/views\/(.*)\.coffee/)
 end

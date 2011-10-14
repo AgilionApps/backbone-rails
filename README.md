@@ -70,13 +70,17 @@ src_files:
 
 ### Configuring Guard
 
-Just change the output path and the regular expression used to match files if you need a different structure.
+The Guardfile is in the root of the project. Just change the output path and the regular expression used to match files 
+if you need a different structure. It looks something like this
 
 ```ruby
 
-guard 'coffeescript', :output => 'public/javascripts/compiled' do
-  watch(/^spec\/javascripts\/(.*)\.coffee/)
+guard 'coffeescript', :output => 'public/javascripts/compiled/src' do
+  watch(/^app\/assets\/javascripts\/collections\/(.*)\.coffee/)
+  watch(/^app\/assets\/javascripts\/views\/(.*)\.coffee/)
 end
+
+#...
 
 ```
 
