@@ -30,6 +30,7 @@ describe "Example", ()->
 
 ```
 
+_You can remove these examples, they are only for demonstration purposes._
 
 ## Installation
 
