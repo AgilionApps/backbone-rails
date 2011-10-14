@@ -87,4 +87,4 @@ end
 ## Rails 3.1 Asset Pipeline
 
 Because load order is important it is not advised to automagically load your javascript files with the require tree directive
-in app/assets/javascripts/application.js. All javascripts that are needed are specified explicitly instead.
+in app/assets/javascripts/application.js. All javascripts that are needed by your app are specified explicitly instead.
