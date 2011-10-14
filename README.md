@@ -20,6 +20,7 @@ class window.Example extends Backbone.Model
 ```coffeescript
 
 # Backbone.js Spec for Example model
+# spec/javascripts/models/example_spec.coffee
 describe "Example", ()->
   beforeEach ()->
     this.example = new window.Example
