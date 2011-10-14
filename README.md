@@ -48,17 +48,22 @@ It looks something like this
 
 ```yml
 
+
 src_files:
+  # Dependencies
   - public/javascripts/lib/jquery.js
   - public/javascripts/lib/jquery.tmpl.js
   - public/javascripts/lib/underscore.js
   - public/javascripts/lib/backbone.js
 
-  - public/javascripts/models/*.js
-  - public/javascripts/collections/*.js
-  - public/javascripts/views/*.js
+  # Source (what we're testing)
+  - public/javascripts/compiled/src/models/*.js
+  - public/javascripts/compiled/src/collections/*.js
+  - public/javascripts/compiled/src/views/*.js
 
-  - public/javascripts/compiled/*.js
+  # Specs (our tests)
+  - public/javascripts/compiled/spec/**/*.js
+
 
 ```
 
