@@ -63,8 +63,8 @@ compiled/tested before they will show up in the tests._
 ## Organization & Configuration
 
 In the app/assets/javascripts directory are subdirectories for organizing your Backbone models, collections and views
-(routes coming soon). The files (ending in .coffee) in these directories are watched by Guard, and when saved will compile into public/javascripts
-models, collections, views and lib directories.
+(routes coming soon). The files (ending in .coffee) in these directories are watched by Guard, and when saved will compile into public/javascripts/src
+models, collections and views directories.
 
 The same is true for files in the spec/javascripts directory.
 
