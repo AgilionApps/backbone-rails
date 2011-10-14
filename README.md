@@ -5,7 +5,7 @@ with CoffeeScript.
 
 ## Installation
 
-Grab the repository, change into it and install the necessary gems
+Grabs this repository, changes into it and installs the necessary gems
 
 ```bash
 
