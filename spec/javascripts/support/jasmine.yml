@@ -14,6 +14,7 @@ src_files:
   # Dependencies
   - public/javascripts/lib/jquery.js
   - public/javascripts/lib/jquery.tmpl.js
+  - public/javascripts/lib/sinone-1.2.0.js  
   - public/javascripts/lib/underscore.js
   - public/javascripts/lib/backbone.js
 

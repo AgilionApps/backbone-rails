@@ -12,6 +12,8 @@
 //= require lib/jquery.tmpl
 //= require lib/json2
 
+//= require lib/sinon-1.2.0
+
 //= require lib/underscore
 //= require lib/backbone
 
